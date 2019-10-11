@@ -17,3 +17,5 @@ bin/setup
 ```bash
 bin/rails server
 ```
+
+Preview email at http://localhost:3000/rails/mailers/user_mailer

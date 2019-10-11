@@ -1,0 +1,15 @@
+<mjml>
+  <mj-head>
+    <mj-preview>This is the inbox preview</mj-preview>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="20px">This is an MJML template</mj-text>
+        <mj-text font-size="20px">Greeting 1: <%= @greeting %></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <%= yield %>
+  </mj-body>
+</mjml>
