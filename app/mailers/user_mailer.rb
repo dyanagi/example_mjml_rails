@@ -5,7 +5,7 @@ class UserMailer < ApplicationMailer
 
     mail to: "to@example.org" do |format|
       format.text
-      format.mjml { render layout: "mailer.html.mjml" } # Specify the MJML layout
+      format.html
     end
   end
 end
