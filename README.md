@@ -1,6 +1,6 @@
 # mjml-rails example
 
-An example project for using MJML in Ruby on Rails.
+An example project for using [mjml-rails](https://github.com/sighmon/mjml-rails) in Ruby on Rails.
 
 ## Dependency
 
